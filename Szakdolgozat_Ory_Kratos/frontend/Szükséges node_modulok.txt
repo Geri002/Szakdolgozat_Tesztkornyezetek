@@ -1,0 +1,9 @@
+npm i react@18.2.0
+npm i @ory/client@1.1.23
+npm i typescript@4.9.5
+npm i @types/react@18.0.28
+npm i @types/react-dom@18.0.11
+npm i @types/node@16.18.18
+npm i @types/jest@27.5.2
+npm i @typescript-eslint/parser
+npm i @typescript-eslint/eslint-plugin

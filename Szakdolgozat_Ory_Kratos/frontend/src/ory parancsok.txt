@@ -1,0 +1,5 @@
+Developer verzióban menni kell egy ory szervernek. Ezt el kell indítani, anélkül nem fog működni az autentikációs rendszer. Nem lehet folyamatosan futtatni, minden alkalommal el kell indítani, ezt úgy lehet, hogy regisztrálunk és a cmd-be beírjuk ezt a két parancsot. Utána már futnia kell a webalkalmazásnak.
+
+
+set ORY_SDK_URL=https://exciting-carver-djud3htihw.projects.oryapis.com
+npx @ory/cli tunnel --dev http://localhost:3000
