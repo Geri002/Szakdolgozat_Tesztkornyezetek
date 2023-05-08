@@ -1,0 +1,4 @@
+npm i react@18.2.0
+npm i react-router-dom@6.4.4
+npm i react-scripts@5.0.1
+npm i web-vitals@2.1.4

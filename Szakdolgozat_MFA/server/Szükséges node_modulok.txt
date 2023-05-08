@@ -1,0 +1,5 @@
+npm i @novu/node@0.8.0
+npm i cors@2.8.5
+npm i dotenv@16.0.3
+npm i express@4.18.2
+npm i nodemon@2.0.20
