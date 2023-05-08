@@ -1,0 +1,6 @@
+npm i react-scripts
+npm i bcryptjs@2.4.3
+npm i dotenv@16.0.1
+npm i express@4.18.1
+npm i mongoose@6.5.1
+npm i nodemon@2.0.19

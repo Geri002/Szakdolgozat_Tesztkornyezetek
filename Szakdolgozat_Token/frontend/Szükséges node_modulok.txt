@@ -1,0 +1,12 @@
+npm i antd@5.0.2
+npm i axios@1.2.0
+npm i bcryptjs@2.4.3
+npm i moment@2.29.4
+npm i react@18.2.0
+npm i react-redux@8.0.5
+npm i react-router-dom@6.4.3
+npm i react-toastify@9.1.1
+npm i redux@4.2.0
+npm i redux-devtools-extension@2.13.9
+npm i redux-thunk@2.4.2
+npm i web-vitals@2.1.4

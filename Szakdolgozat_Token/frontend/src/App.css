@@ -1,0 +1,355 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: 0px 15px 10px -15px black;
+}
+
+.col a.logo{
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.col a.login{
+    margin-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+.col a.login:hover{
+    text-decoration: underline;
+}
+
+.name{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main{
+    min-height: calc(100vh - 80px);
+}
+
+.footer{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    display: flex;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    margin: 100px 0;
+}
+
+
+.big-title{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.content-groups{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+}
+
+.card-body{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cars{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.car-title{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.per-day{
+    margin-bottom: 20px;
+}
+
+.bold-price{
+    font-weight: bold;
+}
+
+.rent-now{
+    padding: 5px 15px;
+    background-color: white;
+    box-shadow: 0 0 3px gray;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+
+.rent-now:hover{
+    background-color: black;
+    color: white;
+}
+
+.rent-link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.rent-link:hover{
+    color: white;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-title{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px black;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+
+.form-groups{
+    width: 300px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+
+.login-button{
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.form-link{
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+.form-link:hover{
+    text-decoration: underline;
+}
+
+
+.logout{
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.logout:hover{
+    text-decoration: underline;
+}
+
+
+.car-title2{
+    text-align: center;
+    margin: 100px 0 100px 0;
+    font-size: 40px;
+}
+
+.car-row{
+    display: flex;
+}
+
+.car-col{
+    flex: 1;
+    margin-bottom: 100px;
+}
+
+.car-group{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-subtitle{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgb(140, 140, 140);
+}
+
+.car-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-info span{
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.car-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-img{
+    width: 600px;
+    height: auto;
+    filter: drop-shadow(0 0 3px black);
+}
+
+.total{
+    margin-top: 25px;
+}
+
+.total-title{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-flex{
+    display: flex;
+    padding: 0 10px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2{
+    flex: 2;
+}
+
+.div-filter{
+    margin-bottom: 40px;
+}
+
+.filter-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-type{
+    padding: 5px 15px;
+    background-color: white;
+    box-shadow: 0 0 4px black;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.btn-type:hover{
+    background-color: gray;
+}
+
+.search{
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    color: gray;
+    border-bottom: 1px solid black;
+}
