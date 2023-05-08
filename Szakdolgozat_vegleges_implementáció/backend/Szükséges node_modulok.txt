@@ -1,0 +1,9 @@
+npm i axios@1.3.4
+npm i bcryptjs@2.4.3
+npm i cors@2.8.5
+npm i dotenv@16.0.1
+npm i express@4.18.1
+npm i express-jwt@8.4.1
+npm i jwks-rsa@3.0.1
+npm i mongoose@6.5.1
+npm i nodemon@2.0.19
