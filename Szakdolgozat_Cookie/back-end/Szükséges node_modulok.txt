@@ -1,0 +1,4 @@
+npm i cookie-parser@1.4.6
+npm i cors@2.8.5
+npm i express@4.18.2
+npm i nodemon@2.0.20

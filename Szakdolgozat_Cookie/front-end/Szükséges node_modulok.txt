@@ -1,0 +1,2 @@
+npm i react@18.2.0
+npm i react-router-dom@5.2.0
