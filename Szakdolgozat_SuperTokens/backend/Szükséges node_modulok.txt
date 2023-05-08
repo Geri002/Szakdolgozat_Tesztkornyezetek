@@ -1,0 +1,6 @@
+npm i cors@2.8.5
+npm i dotenv@16.0.3
+npm i express@4.18.2
+npm i nodemon@2.0.21
+npm i react-scripts@5.0.1
+npm i supertokens-node@13.5.0
